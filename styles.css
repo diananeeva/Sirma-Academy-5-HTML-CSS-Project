@@ -284,6 +284,9 @@ nav ul li a {
 .flexible-travel-text {
   width: 60%;
 }
+.span-night{
+  color: #4F4F53;
+}
 
 .grey-p {
   margin-top: 16px;
@@ -311,9 +314,6 @@ nav ul li a {
 }
 .city-name-flexibel {
   margin-top: 4px;
-  color:#4F4F53;
-}
-span{
   color:#4F4F53;
 }
 
