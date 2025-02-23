@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "DM Sans", sans-serif;
+  padding: 0 20px;
+}
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.button {
+  padding: 10px 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  color: white;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  max-width: 1200px;
+  margin: 35px auto 0;
+  padding: 0 20px;
+}
+
+nav .center-content {
+  display: flex;
+  justify-content: center; 
+  flex-grow: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center; 
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 30px;
+  margin-left: auto;
+}
+
+.login {
+  background: none;
+  color: white;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.register {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.logo img {
+  width: 150px;
+  filter: invert(100%);
+}
+
+.discover {
+  background-image: url("assets/places-to-visit-in-bulgaria.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  text-align: center;
+  color: white;
+  position: relative;
+  padding: 0 20px;
+}
+
+.discover-container {
+  max-width: 600px;
+}
+
+.discover-container h1 {
+  font-size: 54px;
+  line-height: 80px;
+}
+.discover-container p {
+  font-weight: bold;
+  color: white;
+  margin-top: 24px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.stats {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-size: 16px;
+}
+.number {
+  font-size: 32px;
+}
+
+.explorer,
+.flexible-travel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px 31px 0;
+  margin-top: 80px;
+}
+
+.explorer-text-container {
+  max-width: 600px;
+}
+
+.explorer-p {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #555;
+}
+
+.explorer-images,
+.flexible-images {
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.city-label {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+}
+
+.city-name .country-name {
+  font-size: 18px;
+}
+.platforms-work {
+  display: flex;
+  justify-content: center;
+}
+
+.platforms-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  padding: 80px 31px 0;
+  margin-top:80px;
+}
+
+.platfrom-p {
+  color: grey;
+  margin-bottom: 48px;
+}
+
+.element-p {
+  color: grey;
+  margin-top: 8px;
+}
+
+.element-h6 {
+  font-size: 20px;
+}
+
+.platform-text h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.element-item {
+  margin-top: 26px;
+}
+
+.element-item i {
+  padding-right: 10px;
+}
+
+.platform-img img {
+  width: 100%;
+  height: auto;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.platform-img {
+  flex: 1;
+  margin-top: 60px;
+}
+
+.platform-text {
+  flex: 0 1 50%;
+  margin-right: 60px;
+}
+
+.platform-text .element-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.element-item i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.flexible-travel-text {
+  width: 60%;
+}
+
+.grey-p {
+  margin-top: 16px;
+  color: grey;
+}
+.flexible-images {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.label {
+  position: absolute;
+  bottom: 10px;
+  left: 8px;
+  right: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+  background: white;
+  color: black;
+}
+.hotel-name {
+  font-size: 20px;
+}
+.city-name-flexibel {
+  margin-top: 4px;
+  color:#4F4F53;
+}
+span{
+  color:#4F4F53;
+}
+
+.price-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 16px;
+}
+.price span {
+  font-weight: normal;
+}
+
+.rating {
+  margin-left: auto;
+  color: #ffd700;
+  font-size: 16px;
+}
+.travelers-say {
+  margin-top: 80px;
+}
+.travelers-say {
+    text-align: center;
+    padding: 50px;
+}
+
+.travelers-container {
+    display: flex;
+    justify-content: space-between;  
+    gap: 20px;
+    
+}
+.travelers-h2 {
+    font-size: 36px;
+    text-align: center; 
+    margin: 0 auto; 
+    width: 50%;
+}
+
+.travel-container {
+    border: 1px solid rgb(235, 229, 229); 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top:40px;
+    
+    
+}
+
+.travelers {
+    font-size:20px;
+    padding: 16px;
+    text-align: left;
+}
+
+.img-traveler {
+    text-align: left;
+    padding: 16px;
+
+}
+
+.img-traveler img {
+    width: 50px;
+  height: 50px;
+    
+}
+.travel-p{
+  font-size:14px;
+  color: #4F4F53;
+}
+.ready-to-explore{
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 92px;}
+    
+.ready-to-explore-text{
+    padding: 64px;
+    width:50%;
+}
+.ready-p{
+    margin-top:16px;
+    color: #4F4F53;
+}
+.ready-to-explore-btn{
+    display:flex;
+    align-items: center;
+    padding:64px;
+    gap:12px;
+    
+}
+.ready-to-explore-btn button {
+    
+    padding: 10px 20px; 
+    font-size: 14px; 
+    border-radius: 20px; 
+}
+.ready-start{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.ready-learn{
+    background-color: transparent; 
+    color: #4F4F53; 
+    border: 2px solid #4F4F53; 
+    padding: 10px 20px;
+}
+
+
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 31px 48px 31px 24px;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom:20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left img{
+    width:35%;
+    filter: invert(100%);
+}
+.footer-text {
+    margin-top: 32px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-nav {
+    margin-top: 32px;
+    display: flex;
+    gap:32px;
+
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-subscribe-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.footer-form {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-form input {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.footer-form button {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid grey;
+    padding-top: 28px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+

@@ -1,0 +1,196 @@
+@media (max-width: 1024px) {
+ 
+
+  nav ul {
+    gap: 20px;
+  }
+  .auth-buttons {
+    gap: 10px;
+  }
+
+  .discover {
+    height: 500px;
+  }
+
+  .discover-container h1 {
+    font-size: 42px;
+    line-height: 60px;
+  }
+
+  .stats {
+    font-size: 16px;
+  }
+
+  .number {
+    font-size: 28px;
+  }
+}
+
+/* Мобилни устройства (до 768px) */
+@media (max-width: 768px) {
+  .h2 {
+    font-size: 24px;
+  }
+  header{
+    display: flex;
+ }
+ .button{
+  margin-top: 20px;
+  padding: 10px 10px;
+  font-size: 14px;
+ }
+ .logo{
+    display: none;
+ }
+ nav ul li a{
+  font-size:14px;
+ }
+ nav{
+  margin: 0 auto;
+ }
+
+ .auth-buttons {margin-left: 10px;}
+ 
+  .discover {
+    height: 400px;
+  }
+
+  .discover-container h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .discover-container p {
+    font-size: 14px;
+  }
+
+  .stats {
+    gap: 10px;
+  }
+
+  .stats div {
+    font-size: 14px;
+  }
+
+  .number {
+    font-size: 24px;
+  }
+  .explorer-images {
+    display: flex;
+    flex-direction: column;
+  }
+  .platforms-container {
+    display: block;
+    
+  }
+  .platform-text{
+    margin:0 auto;
+    text-align: center;
+  }
+  .platform-text .element-item{
+    display:block;
+  }
+  
+  .flexible-images {
+    display: flex;
+    flex-direction: column;
+  }
+  .flexible-travel, .explorer {
+    margin: 0;
+  }
+  .hotel-name {
+    font-size: 16px;
+  }
+  .city-name-flexibel {
+    font-size: 14px;
+  }
+  .price {
+    font-size: 12px;
+  }
+  .travelers-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .travelers {
+    text-align: center;
+  }
+  .travelers-say{
+  
+   padding:0;
+  }
+  .img-traveler {
+    text-align: center;
+  }
+  .travelers-h2 {
+    font-size: 30px;
+    width:auto;
+  }
+  .ready-to-explore{
+    display:flex;
+    flex-direction: column;
+  }
+  .ready-to-explore-text{
+    width: auto;
+    padding: 40px;
+  }
+  .ready-to-explore-btn {
+    margin: 0 auto;
+    padding: 0 0 10px;
+  }
+  .ready-to-explore-btn button{
+    padding:5px 10px;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-right{
+    margin-top: 20px;
+  }
+}
+
+/* Малки мобилни устройства (до 480px) */
+@media (max-width: 480px) {
+  .h2{
+    text-align: center;
+  }
+  nav ul{
+    gap:5px;
+  }
+  .discover {
+    height: 350px;
+  }
+
+  .discover-container h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .discover-container p {
+    font-size: 12px;
+  }
+
+  .explore-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .stats {
+    font-size: 10px;
+    gap: 2px;
+  }
+
+  .text{
+    font-size: 10px;
+  font-weight: bold;
+  }
+  .platform-text{
+    margin:0 auto;
+  }
+  .travelers-h2{
+    font-size:20px;
+  }
+  .footer-nav{
+    gap:10px;
+  }
+}
